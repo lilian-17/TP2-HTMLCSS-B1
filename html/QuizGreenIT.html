@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green IT - Quiz</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="https://www.greenit.fr/"><img class="logo" src="../img/greenit.png" alt="greenit_img" ></a>
+        <nav>
+            <a class="lienav" href="./accueil.html">Accueil</a>
+            <a class="lienav" href="./GreenITSiteWeb.html">Green IT & Sites Webs</a>
+            <a class="lienav" href="./QuizGreenIT.html">Quiz Green IT</a>
+            <a class="lienav" href="./apropos.html">À propos</a>
+        </nav>
+    </header>
+
+    <form>
+        <fieldset>
+            <legend>Vos informations</legend>
+
+            <label for="lname">Nom :</label>
+            <input type="text" id="lname"><br> 
+
+            <label for="fname">Prénom :</label>
+            <input type="text" id="fname"><br>
+
+            <label for="ddn">Date de naissance :</label>
+            <input type="date" id="ddn"><br>
+
+            <label for="email">Adresse mail :</label>
+            <input type="email" id="email"><br>
+
+            <label for="selectstatus">Status :</label>
+            <select id="selectstatus">
+                <option value="Status">Choix :</option>
+                <option value="Majeur">Majeur</option>
+                <option value="Mineur">Mineur</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <form class="quiz">
+        <fieldset>
+            <legend>Quiz sur la Green IT</legend>
+
+            <ol>
+                <li><label>Qu'est ce que la Green IT ?</label>
+                <ol type="a">
+                    <li><input type="radio" id="rad1">
+                        <label for="rad1">Une pratique visant à réduire l'impact environnemntal des technologies d'informations</label></li>
+                    
+                    <li><input type="radio" id="rad2">
+                        <label for="rad2">Un système de recyclage des anciens ordinateurs</label></li>
+
+                    <li><input type="radio" id="rad3">
+                        <label for="rad3">Une méthode pour augmenter la consommation énergétique des serveurs</label></li>
+                </ol></li>
+                <li><label>Quel est l'objectif principal de la Green IT</label>
+                <ol type="a">
+                    <li><input type="checkbox" id="c1">
+                        <label for="c1">Réduire la consommation d'énergie</label></li>
+
+                    <li><input type="checkbox" id="c2">
+                        <label for="c2">Minimiser les déchets électroniques</label></li>
+
+                    <li><input type="checkbox" id="c3">
+                        <label for="c3">Optimiser les performancesdes appareils électroniques</label></li>
+                </ol></li>
+                <li><label>Donnez un exemple de pratique de Green IT</label><br>
+                <input class="askwrite" type="text"></li>
+            </ol>
+        </fieldset>
+    </form>
+    <button type="button">Envoyer</button>
+
+    <footer>
+        <p>©️2024 Maha Naceur.</p>
+        <p>Tous droits réservés.</p>s
+        <a href="https://www.greenit.fr/">En savoir plus ?</a>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,235 @@
+
+body {
+    background-color: #002400;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+header,.logo, footer{
+    background-image: url("../img/wp.jpg");
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+header {
+    border-radius: 4em;
+    padding-bottom: 2%;
+}
+
+header img{
+    width: 20%;
+    text-align: left;
+
+}
+
+footer{
+    border-radius: 2em;
+}
+
+nav{
+    display:block;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #fff;
+}
+
+a:hover{
+    color :red;
+}
+
+nav a{
+    font-size: 150%;
+    border-radius: 1em;
+    padding: 2%;
+}
+
+.lienav:hover:nth-child(odd){
+    background-color: #fff;
+    color: black
+}
+
+.lienav:hover:nth-child(even){
+    background-color: grey;
+    color: white
+}
+
+section{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #273B09;
+    border-radius: 5em;
+    padding-left:2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.liensec{
+    color: pink;
+    font-style: italic;
+}
+
+
+h1 {
+    color: #FEFFA5;
+}
+
+h2 {
+    color: #7B904B;
+}
+
+h2 ~ h3 {
+    color : #86BBD8;
+}
+
+#citation, #definition{
+font-weight: 800;
+}
+
+/* POSTIT */
+#postit{
+    display: flex;
+    flex-wrap: "wrap";
+    list-style-type: none;
+    justify-content: space-between;
+    padding:0;
+    margin: 0;
+}
+
+.postititem{
+    background-color: #002400;
+    border: #86BBD8;
+    position: relative;
+    margin: 5%  ;
+    border-radius: 1em;
+    padding:1%;
+    padding-bottom: 0.4%;
+    padding-right: 1%;
+    width: 10%;
+    list-style-type: none;
+
+}
+
+.sousitem{
+    display: none;
+    position:absolute;
+    min-width: 100%;
+    z-index: 100%;
+    background-color: grey;
+    color: #fff;
+    border-radius: 1em;
+    padding: 15%;
+}
+
+.postititem:hover .sousitem{
+    display:block;
+}
+
+.postititem:first-child{
+    background-color: palevioletred;
+}
+
+.postititem:nth-child(2){
+    background-color: purple;
+}
+
+.postititem:nth-child(3){
+    background-color: pink;
+}
+
+.postititem:nth-child(4){
+    background-color: plum;
+}
+
+.postititem:nth-child(5){
+    background-color: peachpuff;
+}
+/*---------------------------------------------*
+
+/*Quiz-Page*/
+
+button {
+    background-color: #4CAF50; 
+    color: #fff;              
+    padding: 15px 20px;       
+    font-size: 18px;         
+    border: none;             
+    border-radius: 15px;      
+    cursor: pointer;          
+    left: 50%;
+    transition: background-color 0.3s;
+    transition: padding 0.3s; 
+    margin: 10px 50px 20px 0;
+}
+
+form{
+    text-align: left;
+    line-height: 125%;
+}
+
+legend{
+    display: block;
+    background-color: aliceblue;
+    border-radius: 1em;
+    color: black;
+    padding: 0.5%;
+}
+
+fieldset{
+    border-color:#7B904B;
+    border-radius:1em;
+    margin:1%;
+}
+
+input{
+    border-radius: 0.5em;
+    text-align: center;
+    border-color: #86BBD8;
+    margin: 0.5%;
+}
+
+.askwrite {
+    width: 600px;
+    height: 10em;
+}
+
+#selectstatus{
+    border-radius: 0.5em;
+    border: #86BBD8;
+}
+
+/*---------------------------*/
+
+caption{
+    color: plum;
+    border: white;
+    font-size: 150%;
+    padding-bottom: 1%;
+}
+
+table{
+    line-height: 175%;
+    border-width:1%; 
+    border-style:solid; 
+    border-color:#FEFFA5;
+    border-radius: 1em;
+    padding: 1%;
+
+}
+
+th{
+    color: palevioletred;
+}
+
+td { 
+    border-width:0.1%;
+    border-style:dotted; 
+    border-color:#fff;
+    }
